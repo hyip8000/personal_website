@@ -53,7 +53,6 @@ h1 {
 }
 
 .mainheader h2 {
-  /* background-color: #e9e9e9; */
   font-size: 20px;
   font-family: Quicksand;
   letter-spacing: 4px;
@@ -117,18 +116,59 @@ h1 {
   margin-bottom: 30px;
 }
 
+.background-title {
+  margin: 10px;
+}
+
+.background-content p {
+  margin: 15px 140px 25px;
+  padding: 25px;
+  font-family: Quicksand;
+  background-color: #ffe6ee;
+  border-radius: 10px;
+}
+
+.header-background {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-background h2 {
+  font-family: Lato;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.fa-background {
+  border-radius: 100%;
+  color: #000;
+  cursor: default;
+  display: inline-block;
+  height: 2.5em;
+  line-height: 2.5em;
+  margin-right: 20px;
+  width: 2.5em;
+
+  font-size: 20px;
+  background-color: #D04545;
+  color: white;
+}
+
 .resume {
   font-family: Roboto;
   color: #dd5d9d;
-  padding: 5px 10px;
-  font-size: 15px;
+  padding: 10px 20px;
+  font-size: 20px;
   font-weight: bold;
   border-color: lightgrey;
 }
 
 .resume:hover {
-  border-color: #EC5C9F;
-  background-color: #EC5C9F;
+  border-color: palevioletred;
+  background-color: palevioletred;
   color: white;
   text-transform: uppercase;
   transition: background-color border-color 0.3s ease-in, color 0.3s ease-in;
@@ -221,7 +261,7 @@ h1 {
 }
 
 /* social media */
-.fa {
+.icons {
   padding: 10px;
   font-size: 15px;
   width: 35px;
