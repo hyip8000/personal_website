@@ -63,13 +63,14 @@ h1 {
 }
 
 #navbar-real {
-  background-color: rgba(255,255,255,0.5) !important;
+  background-color:#444 !important;
   justify-content: center;
 }
 
-#navbarSupportedContent {
+#navbarSupportedContent, a.nav-link {
   font-family: Quicksand;
   font-weight: bold;
+  color: white !important;
 }
 
 .navbar-nav > li {
@@ -115,7 +116,7 @@ h1 {
   margin: 0 auto; /* This will center the border. */
   width: 80%; /* Change this to whatever width you want. */
   padding-top: 20px; /* This creates some space between the element and the border. */
-  border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */
+  border-bottom: 1px solid #808080; /* This creates the border. Replace black with whatever color you want. */
 }
 
 .intro h3 {
