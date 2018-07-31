@@ -185,7 +185,6 @@ h1 {
   border-color: #AB666F;
   background-color: #AB666F;
   color: white;
-  text-transform: uppercase;
   transition: background-color border-color 0.3s ease-in, color 0.3s ease-in;
 }
 
