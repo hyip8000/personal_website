@@ -377,27 +377,42 @@ h1 {
 }
 
 .purdue.leader {
-  width: 110px;
-  height: 70px;
+  width: 105px;
+  height: 80px;
 }
 
-.leadership-content {
+.content-leadership {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 20px;
+  margin-top: 20px;
+  background-color: #414a4c;
 }
 
-.leadership-content h5 {
+.content-leadership h5 {
   font-family: Cabin;
   font-weight: bold;
-  /* color: #F5F5F5; */
+  color: #F5F5F5;
   font-size: 20px;
 }
 
-.leadership-content h6 {
+.prev-awards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prev-awards h6 {
   font-family: Lato;
-  font-size: 18px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #F5F5F5;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+
+.prev-awards p {
+  font-size: 15px;
 }
 
 .contact {
