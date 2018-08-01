@@ -11,7 +11,7 @@
   <title>Beverly Yip</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Cabin|Crimson+Text|Galada|Josefin+Sans|Lato|Libre+Baskerville|Lobster|Lora|Markazi+Text|Merriweather|Montserrat|Muli|Nanum+Gothic|Noto+Sans|Noto+Serif|Sacramento|Open+Sans|Open+Sans+Condensed:300|Oswald|Oxygen|PT+Sans|Playfair+Display|Poppins|Quicksand|Roboto|Roboto+Condensed|Roboto+Slab|Slabo+27px|Song+Myung|Source+Sans+Pro|Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cabin|Galada|Lato|Oswald|Quicksand|Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
 
@@ -225,47 +225,99 @@
         </div>
       </div>
 
-
-      <!-- <div class="prev-leadership">
+      <div class="prev-leadership w3-container">
         <div class="logo-leadership">
-          <img class="asub leader" src="img/asub.PNG" alt="asub">
-          <br>
-          <img class="sase leader" src="img/sase.png" alt="sase">
+          <input type="image" src="img/asub.PNG" alt="Submit" class="asub leader" onclick="reveal_asub()">
+          <input type="image" src="img/sase.png" alt="Submit" class="sase leader" onclick="reveal_sase()">
+          <input type="image" src="img/cswn.png" alt="Submit" class="cswn leader" onclick="reveal_cswn()">
+          <input type="image" src="img/purdue.png" alt="Submit" class="purdue leader" onclick="reveal_purdue()">
         </div>
-        <div class="leadership-content">
-          <h5>Asian Student Union Board</h5>
-          <h6>President</h6>
-          <br>
-          <h5>Society of Asian Scientists and Engineers</h5>
-          <h6>President</h6>
-        </div>
-      </div> -->
-
-    </div>
-
-    <div class="section contact" id="contact">
-      <div class="row justify-content-around">
-        <div class="col-12">
-          <h2 class="contactlabel"><b>Let's get in touch!</span></b>
+        <div class="content-leadership">
+          <div id="asub-content" style="display:none">
+            <h5>Asian Student Union Board</h5>
+            <p>President</p>
           </div>
-          <div class="col-12 text-center">
-            <h3>hyip@purdue.edu</h3>
+          <div id="sase-content" style="display:none">
+            <h5>Society of Asian Scientists and Engineers</h5>
+            <p>President</p>
           </div>
-        </div>
-        <div class="row justify-content-center">
-          <a href="https://www.facebook.com/beverlyyhx" target="_blank" class="icons fa fa-facebook"></a>
-          <a href="https://www.linkedin.com/in/beverly-yip-542935137/" target="_blank" class="icons fa fa-linkedin"></a>
-          <a href="https://github.com/hyip8000" target="_blank" class="icons fa fa-github"></a>
-          <a href="https://www.instagram.com/saturdayhonwax/" target="_blank" class="icons fa fa-instagram"></a>
+          <div id="cswn-content" style="display:none">
+            <h5>Computer Science Women's Network</h5>
+            <p>Secretary</p>
+          </div>
+          <div id="purdue-content" style="display:none">
+            <h5>Mentors for Aspiring Girls In Computing</h5>
+            <h5>Women in Science Program</h5>
+            <h5>Undergraduate Teaching Assistant (CS180)</h5>
+          </div>
         </div>
       </div>
+
     </div>
+  </div>
+</div>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<div class="section contact" id="contact">
+  <div class="row justify-content-around">
+    <div class="col-12">
+      <h2 class="contactlabel"><b>Let's get in touch!</span></b>
+      </div>
+      <div class="col-12 text-center">
+        <h3>hyip@purdue.edu</h3>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <a href="https://www.facebook.com/beverlyyhx" target="_blank" class="icons fa fa-facebook"></a>
+      <a href="https://www.linkedin.com/in/beverly-yip-542935137/" target="_blank" class="icons fa fa-linkedin"></a>
+      <a href="https://github.com/hyip8000" target="_blank" class="icons fa fa-github"></a>
+      <a href="https://www.instagram.com/saturdayhonwax/" target="_blank" class="icons fa fa-instagram"></a>
+    </div>
+  </div>
+</div>
 
-  </body>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-  </html>
+<script>
+function reveal_asub(){
+  var x = document.getElementById("asub-content");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function reveal_sase(){
+  var x = document.getElementById("sase-content");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function reveal_cswn(){
+  var x = document.getElementById("cswn-content");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function reveal_purdue(){
+  var x = document.getElementById("purdue-content");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+</body>
+
+</html>

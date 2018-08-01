@@ -250,10 +250,6 @@ h1 {
   cursor: context-menu;
 }
 
-.proj h5 {
-  color: white;
-}
-
 .expertise {
   display: flex;
   flex-direction: column;
@@ -355,17 +351,34 @@ h1 {
 
 .prev-leadership {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.logo-leadership {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-right: 10px;
+.logo-leadership input {
+  margin: 0 30px;
+}
+
+.asub.leader {
+  border-radius: 150%;
+  width: 85px;
+  height: 85px;
+}
+
+.sase.leader {
+  width: 100px;
+  height: 90px;
+}
+
+.cswn.leader {
+  width: 95px;
+  height: 90px;
+}
+
+.purdue.leader {
+  width: 110px;
+  height: 70px;
 }
 
 .leadership-content {
@@ -378,25 +391,13 @@ h1 {
 .leadership-content h5 {
   font-family: Cabin;
   font-weight: bold;
-  letter-spacing: 2px;
-  color: #F5F5F5;
-  font-size: 25px;
+  /* color: #F5F5F5; */
+  font-size: 20px;
 }
 
 .leadership-content h6 {
   font-family: Lato;
   font-size: 18px;
-}
-
-.asub.leader {
-  border-radius: 150%;
-  width: 80px;
-  height: 80px;
-}
-
-.sase.leader{
-  width: 120px;
-  height: 80px;
 }
 
 .contact {
@@ -458,34 +459,9 @@ h1 {
 }
 
 /* fonts */
-font-family: 'Markazi Text', serif;
 font-family: 'Roboto', sans-serif;
-font-family: 'Open Sans', sans-serif;
 font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif;
 font-family: 'Oswald', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
-font-family: 'Slabo 27px', serif;
-font-family: 'Roboto Slab', serif;
-font-family: 'PT Sans', sans-serif;
-font-family: 'Merriweather', serif;
-font-family: 'Open Sans Condensed', sans-serif;
-font-family: 'Ubuntu', sans-serif;
-font-family: 'Noto Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Lora', serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Sacramento', cursive;
-font-family: 'Song Myung', serif;
 font-family: 'Galada', cursive;
-font-family: 'Muli', sans-serif;
-font-family: 'Noto Serif', serif;
-font-family: 'Nanum Gothic', sans-serif;
-font-family: 'Crimson Text', serif;
 font-family: 'Quicksand', sans-serif;
-font-family: 'Oxygen', sans-serif;
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Libre Baskerville', serif;
 font-family: 'Cabin', sans-serif;
-font-family: 'Lobster', cursive;
