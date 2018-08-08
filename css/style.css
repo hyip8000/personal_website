@@ -240,6 +240,7 @@ h1 {
 .skill-1 {
   display: flex;
   justify-content: center;
+  margin-left: -100px;
 }
 
 .skill-2 {
@@ -250,13 +251,18 @@ h1 {
 #skills {
   display: flex;
   justify-content: center;
-  width: 100%;
+  /* width: 100%; */
 }
 
 @media only screen and (max-width: 1070px) {
     #skills {
         flex-direction: column;
     }
+
+    .skill-1, .skill-2 {
+      margin: auto;
+    }
+
 }
 
 .words{
