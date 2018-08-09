@@ -18,8 +18,7 @@ header {
 
 @media only screen
   /* and (min-device-width: 375px) */
-  and (max-device-width: 750px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (max-width: 750px) {
     header {
       background-size: cover;
       background-position: center center;
@@ -56,8 +55,7 @@ header {
 
 @media only screen
   /* and (min-device-width: 375px) */
-  and (max-device-width: 750px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (max-width: 750px) {
     .mainheader {
       width: 100%;
       background-color: #fff; /* fallback */
@@ -164,8 +162,7 @@ h1 {
 
 @media only screen
   /* and (min-device-width: 375px) */
-  and (max-device-width: 750px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (max-width: 990px) {
     .Designer:before, .Leader:before {
       content: "";
       display: block;
@@ -175,7 +172,7 @@ h1 {
       border-bottom: 1px solid #808080;
     }
     .designer-cube, .leader-cube {
-      border: 0;
+      border-left: 0;
     }
     .Leader h2 {
       margin: 0 -18px;
@@ -275,6 +272,18 @@ h1 {
   /* width: 100%; */
 }
 
+@media only screen
+  and (min-width: 750px)
+  and (max-width: 990px) {
+    #skills {
+        flex-direction: column;
+    }
+
+    .skill-1, .skill-2 {
+      margin: 0 auto;
+    }
+}
+
 @media only screen and (max-width: 750px) {
     #skills {
         flex-direction: column;
@@ -356,8 +365,7 @@ h1 {
 
 @media only screen
   /* and (min-device-width: 375px) */
-  and (max-device-width: 750px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (max-width: 750px) {
     .exp-content {
         flex-direction: column;
         width: 60%;
@@ -452,8 +460,7 @@ h1 {
 
 @media only screen
   /* and (min-device-width: 375px) */
-  and (max-device-width: 750px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (max-width: 1200px){
     .filter-overlay  {
       height: 100%;
     }
