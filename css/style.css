@@ -17,7 +17,7 @@ header {
 }
 
 @media only screen
-  and (min-device-width: 375px)
+
   and (max-device-width: 750px)
   and (-webkit-min-device-pixel-ratio: 2) {
     header {
@@ -55,7 +55,7 @@ header {
 }
 
 @media only screen
-  and (min-device-width: 375px)
+
   and (max-device-width: 750px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .mainheader {
@@ -163,7 +163,7 @@ h1 {
 }
 
 @media only screen
-  and (min-device-width: 375px)
+  
   and (max-device-width: 750px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .Designer:before, .Leader:before {
@@ -355,7 +355,7 @@ h1 {
 }
 
 @media only screen
-  and (min-device-width: 375px)
+
   and (max-device-width: 750px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .exp-content {
@@ -451,7 +451,7 @@ h1 {
 }
 
 @media only screen
-  and (min-device-width: 375px)
+
   and (max-device-width: 750px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .filter-overlay  {
@@ -523,7 +523,7 @@ h1 {
 }
 
 @media only screen
-  and (min-device-width: 375px)
+
   and (max-device-width: 750px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .logo-leadership {
@@ -561,7 +561,7 @@ h1 {
 }
 
 @media only screen
-  and (min-device-width: 375px)
+
   and (max-device-width: 750px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .content-leadership, #asub-content, #sase-content, #cswn-content, #purdue-content  {
