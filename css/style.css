@@ -18,12 +18,15 @@ header {
 
 @media only screen
   and (min-device-width: 375px)
-  and (max-device-width: 667px)
+  and (max-device-width: 750px)
   and (-webkit-min-device-pixel-ratio: 2) {
     header {
       background-size: cover;
+      background-position: center center;
       background-repeat: no-repeat;
+      background-attachment: scroll;
     }
+
 }
 
 .mainheader {
@@ -53,11 +56,28 @@ header {
 
 @media only screen
   and (min-device-width: 375px)
-  and (max-device-width: 667px)
+  and (max-device-width: 750px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    .mainheader{
+    .mainheader {
       width: 80%;
+      background-color: #fff; /* fallback */
+      background-color: rgba(255, 255, 255, 0.6);
+      font-weight: bold;
+      color: black;
     }
+
+    .mainheader span {
+      font-weight: bold;
+      color: black;
+    }
+
+    .landing {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+    }
+
 }
 
 h1 {
@@ -141,9 +161,8 @@ h1 {
 }
 
 @media only screen
-  and (max-width: 540px)
   and (min-device-width: 375px)
-  and (max-device-width: 667px)
+  and (max-device-width: 750px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .Designer:before, .Leader:before {
       content: "";
@@ -254,13 +273,17 @@ h1 {
   /* width: 100%; */
 }
 
-@media only screen and (max-width: 1070px) {
+@media only screen and (max-width: 750px) {
     #skills {
         flex-direction: column;
     }
 
     .skill-1, .skill-2 {
-      margin: auto;
+      margin: 0 10px;
+    }
+
+    .long-skill {
+      font-size: 15px;
     }
 
 }
@@ -288,7 +311,7 @@ h1 {
   margin: 10px;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 750px) {
     .progress {
         width: 100%;
     }
@@ -331,7 +354,7 @@ h1 {
 
 @media only screen
   and (min-device-width: 375px)
-  and (max-device-width: 667px)
+  and (max-device-width: 750px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .exp-content {
         flex-direction: column;
@@ -364,15 +387,6 @@ h1 {
 
 .prev-proj-box {
   position: relative;
-}
-
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .filter-overlay  {
-      height: 100%;
-    }
 }
 
 .filter-overlay {
@@ -434,6 +448,18 @@ h1 {
   margin: 0 !important;
 }
 
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 750px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .filter-overlay  {
+      height: 100%;
+    }
+    .prev-proj img {
+      height: 350px;
+    }
+}
+
 .prev-leadership {
   display: flex;
   flex-direction: column;
@@ -452,7 +478,28 @@ h1 {
   align-items: center;
 }
 
-@media only screen and (max-width: 660px) {
+.asub.leader {
+  border-radius: 150%;
+  width: 85px;
+  height: 85px;
+}
+
+.sase.leader {
+  width: 100px;
+  height: 90px;
+}
+
+.cswn.leader {
+  width: 95px;
+  height: 90px;
+}
+
+.purdue.leader {
+  width: 110px;
+  height: 80px;
+}
+
+@media only screen and (max-width: 750px) {
   .first-logo-row, .sec-logo-row {
     display: flex;
     flex-direction: column;
@@ -475,7 +522,7 @@ h1 {
 
 @media only screen
   and (min-device-width: 375px)
-  and (max-device-width: 667px)
+  and (max-device-width: 750px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .logo-leadership {
       display: flex;
@@ -504,27 +551,6 @@ h1 {
     }
 }
 
-.asub.leader {
-  border-radius: 150%;
-  width: 85px;
-  height: 85px;
-}
-
-.sase.leader {
-  width: 100px;
-  height: 90px;
-}
-
-.cswn.leader {
-  width: 95px;
-  height: 90px;
-}
-
-.purdue.leader {
-  width: 115px;
-  height: 80px;
-}
-
 .content-leadership {
   margin-top: 20px;
   background-color: #ffe9ec;
@@ -534,7 +560,7 @@ h1 {
 
 @media only screen
   and (min-device-width: 375px)
-  and (max-device-width: 667px)
+  and (max-device-width: 750px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .content-leadership, #asub-content, #sase-content, #cswn-content, #purdue-content  {
       width: 100%;
@@ -578,6 +604,11 @@ h1 {
 .contact {
   background-color: #ffe9ec;
   padding: 30px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact h2 {
