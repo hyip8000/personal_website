@@ -235,6 +235,7 @@
           <div class="first-logo-row">
             <input type="image" src="img/asub.PNG" alt="Submit" class="asub leader" onclick="reveal_asub()">
             <input type="image" src="img/sase.png" alt="Submit" class="sase leader" onclick="reveal_sase()">
+            <input type="image" src="img/salesforce.png" alt="Submit" class="salesforce leader" onclick="reveal_salesforce()">
           </div>
           <div class="sec-logo-row">
             <input type="image" src="img/cswn.png" alt="Submit" class="cswn leader" onclick="reveal_cswn()">
@@ -261,6 +262,15 @@
               <a href="https://www.facebook.com/SASEMidwest/" target="_blank" class="icons fa fa-facebook" style="margin: 10px 5px;"></a>
               <a href="https://www.instagram.com/sasepurdue/" target="_blank" class="icons fa fa-instagram" style="margin: 10px 5px;"></a>
               <a href="https://saseconnect.org/" target="_blank" class="icons fa fa-link" style="margin: 10px 5px;"></a>
+            </div>
+          </div>
+          <div id="salesforce-content" style="display:none">
+            <h5>Salesforce</h5>
+            <p>Software Engineering Intern <b style="margin-left:15px">2019-Present</b></p>
+            <div class="justify-content-center" style="width: 100%">
+              <a href="https://twitter.com/SalesforceEdu" target="_blank" class="icons fa fa-twitter" style="margin: 10px 5px;"></a>
+              <a href="https://www.instagram.com/salesforcefutureforce/" target="_blank" class="icons fa fa-instagram" style="margin: 10px 5px;"></a>
+              <a href="https://www.salesforce.com/" target="_blank" class="icons fa fa-link" style="margin: 10px 5px;"></a>
             </div>
           </div>
           <div id="cswn-content" style="display:none">
@@ -341,6 +351,7 @@
 <script>
 let asubLogo = document.getElementById('asub-content');
 let saseLogo = document.getElementById('sase-content');
+let salesforceLogo = document.getElementById('salesforce-content');
 let cswnLogo = document.getElementById('cswn-content');
 let purdueLogo = document.getElementById('purdue-content');
 
@@ -350,6 +361,7 @@ function reveal_asub(){
     saseLogo.style.display = "none";
     cswnLogo.style.display = "none";
     purdueLogo.style.display = "none";
+    salesforceLogo.style.display = "none";
     x.style.display = "flex";
     x.style.flexDirection = "column";
     x.style.justifyContent= "center";
@@ -369,6 +381,28 @@ function reveal_sase(){
   if (x.style.display === "none") {
     asubLogo.style.display = "none";
     cswnLogo.style.display = "none";
+    purdueLogo.style.display = "none";
+    salesforceLogo.style.display = "none";
+    x.style.display = "flex";
+    x.style.flexDirection = "column";
+    x.style.justifyContent= "center";
+    x.style.height = "100%";
+    x.style.width = "100%";
+    x.style.margin = "10px 0";
+    x.style.padding = "10px 30px";
+  } else {
+    x.style.display = "none";
+    x.style.height = "0";
+    x.style.width = "0";
+  }
+}
+
+function reveal_salesforce(){
+  var x = document.getElementById("salesforce-content");
+  if (x.style.display === "none") {
+    saseLogo.style.display = "none";
+    cswnLogo.style.display = "none";
+    asubLogo.style.display = "none";
     purdueLogo.style.display = "none";
     x.style.display = "flex";
     x.style.flexDirection = "column";
@@ -390,6 +424,7 @@ function reveal_cswn(){
     saseLogo.style.display = "none";
     asubLogo.style.display = "none";
     purdueLogo.style.display = "none";
+    salesforceLogo.style.display = "none";
     x.style.display = "flex";
     x.style.flexDirection = "column";
     x.style.justifyContent= "center";
@@ -410,6 +445,7 @@ function reveal_purdue(){
     saseLogo.style.display = "none";
     cswnLogo.style.display = "none";
     asubLogo.style.display = "none";
+    salesforceLogo.style.display = "none";
     x.style.display = "flex";
     x.style.flexDirection = "column";
     x.style.justifyContent= "center";

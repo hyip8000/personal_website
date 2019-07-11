@@ -507,6 +507,11 @@ h1 {
   height: 90px;
 }
 
+.salesforce.leader {
+  border-radius: 150%;
+  height: 90px;
+}
+
 .cswn.leader {
   width: 95px;
   height: 90px;
@@ -667,6 +672,11 @@ h1 {
   color: white;
 }
 
+.fa-twitter {
+  background: #3B5998;
+  color: white;
+}
+
 .fa-linkedin {
   background: #007bb5;
   color: white;
@@ -685,11 +695,6 @@ h1 {
 .fa-link {
   background: black;
   color: white;
-}
-
-
-.some-class {
-
 }
 
 /* fonts
